@@ -49,7 +49,7 @@
       align-items: center;
       background: no-repeat center center;
       background-size: cover;
-      box-shadow: inset 0 0 200px #000;
+      box-shadow: inset 0 0 20rem var(--black-color);
       color: var(--white-color);
 }
 .category-card:hover{
