@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cart</title>
+      <script src="https://kit.fontawesome.com/4b28f70eeb.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./css/cart.css">
+</head>
+<body>
+
+      <header>
+            <nav class="navbar bg-dark">
+                  <div class="nav-title">
+                        <h1 class="text-xl"><a class="btn">BookStore</a></h1>
+                  </div>
+
+                  <div class="nav-search">
+                        <input type="text" class="search-box text-s" placeholder="Search...">
+                        <button class="btn search-btn"><i class="fa fa-search"></i></button>
+                  </div>
+
+                  <div class="humburger text-l">
+                        <i class="fas fa-bars btn"></i>
+                  </div>
+
+                  <ul class="nav-item-group text-s">
+                        <li class="nav-item"><a class="nav-link active btn">Home</a></li>
+                        <li class="nav-item"><a class="nav-link btn">Explore</a></li>
+                        <li class="nav-item"><a class="nav-link btn">Login</a></li>
+                        <div class="nav-icons">
+                              <a class="nav-item badge-icon text-m">
+                                    <i class="fas fa-heart nav-link btn"></i>
+                                    <p class="badge badge-top-right badge-text text-xs">15</p>
+                              </a>
+                              <a class="nav-item badge-icon text-m">
+                                    <i class="fas fa-shopping-cart nav-link btn"></i>
+                                    <p class="badge badge-top-right badge-text text-xs">15</p>
+                              </a>
+                        </div>
+                  </ul>
+            </nav>
+      </header>
+
+      <section class="main">
+            <h1 class="text-center text-m p-2">My Cart(1)</h1>
+
+            <div class="cart-container">
+                  <div class="card-items">
+                        <div class="card card-horizontal card-shadow">
+                              <div class="card-img">
+                                    <img src="https://picsum.photos/id/100/250/300" alt="Image">
+                              </div>
+                              <div class="card-body p-3">
+                                    <div class="card-content">
+                                          <div class="fw-semibold text-m">Javascript for beginners</div>
+                                          <div class="fw-bold text-m">$5000.00<span class="cancelled-price">$6000.00</span></div>
+                                          <div class="text-discount text-s">50% off</div>
+                                          <div class="text-s">
+                                                <span class="input-counter">
+                                                      Quantity:
+                                                      <div class="counter-btn"><i class="fas fa-plus"></i></div>
+                                                      <div class="counter-text">2</div>
+                                                      <div class="counter-btn"><i class="fas fa-minus"></i></div>
+                                                </span>
+                                          </div>
+                                    </div>
+                                    <div class="card-actions text-s">
+                                          <button class="btn btn-primary">Remove From Cart</button>
+                                          <button class="btn btn-dark">Add To Wishlist</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  
+
+                  <div class="card card-price card-shadow p-2">
+                        <div class="card-body">
+                              <div class="card-content">
+                                    <div class="card-section">
+                                          <h2 class="fw-black">Price Details</h2>
+                                    </div>
+                                    <div class="card-section">
+                                          <div class="card-row">
+                                                <p>Prices (2 items)</p>
+                                                <p>$4999.00</p>
+                                          </div>
+                                          <div class="card-row">
+                                                <p>Discount</p>
+                                                <p>- $1000.00</p>
+                                          </div>
+                                          <div class="card-row">
+                                                <p>Delievery Charge</p>
+                                                <p>$99.00</p>
+                                          </div>
+                                    </div>
+                                    <div class="card-section">
+                                          <div class="card-row fw-bold">
+                                                <p>Total Amount</p>
+                                                <p>$4098.00</p>
+                                          </div>
+                                    </div>
+                                    <div class="save-text">
+                                          <p>You will save $1000 on this order</p>
+                                    </div>
+                              </div>
+                              <div class="card-actions text-s">
+                                    <button class="btn btn-primary">Place Order</button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+           
+
+            
+      </section>
+
+      <script src="./js/header.js"></script>
+      
+</body>
+</html>
