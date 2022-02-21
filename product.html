@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Product</title>
+      <script src="https://kit.fontawesome.com/4b28f70eeb.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+      
+      <header>
+            <nav class="navbar bg-dark">
+                  <div class="nav-title">
+                        <h1 class="text-xl"><a class="btn">BookStore</a></h1>
+                  </div>
+
+                  <div class="nav-search">
+                        <input type="text" class="search-box text-s" placeholder="Search...">
+                        <button class="btn search-btn"><i class="fa fa-search"></i></button>
+                  </div>
+
+                  <div class="humburger text-l">
+                        <i class="fas fa-bars btn"></i>
+                  </div>
+
+                  <ul class="nav-item-group text-s">
+                        <li class="nav-item"><a class="nav-link btn">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active btn">Explore</a></li>
+                        <li class="nav-item"><a class="nav-link btn">Login</a></li>
+                        <div class="nav-icons">
+                              <a class="nav-item badge-icon text-m">
+                                    <i class="fas fa-heart nav-link btn"></i>
+                                    <p class="badge badge-top-right badge-text text-xs">15</p>
+                              </a>
+                              <a class="nav-item badge-icon text-m">
+                                    <i class="fas fa-shopping-cart nav-link btn"></i>
+                                    <p class="badge badge-top-right badge-text text-xs">15</p>
+                              </a>
+                        </div>
+                  </ul>
+            </nav>
+      </header>
+
+      <section class="main">
+            <div class="sidebar box-shadow">
+                  <div class="sidebar-header">
+                        <span class="sidebar-title">Filters</span>
+                        <a class="sidebar-clear">Clear</a>
+                  </div>
+      
+                  <div class="price">
+                        <p class="sidebar-subtitle">Price</p>
+
+                        <div class="input-group">
+                              <label for="minprice">100</label>
+                              <input type="range" id="price" min="100" max="1000">
+                              <label for="maxprice">1000</label>
+                        </div>
+                        
+                  </div>
+
+                  <div class="category">
+                        <p class="sidebar-subtitle">Category</p>
+                        <div>
+                              <div class="input-group">
+                                    <input type="checkbox" id="history">
+                                    <label for="history">History</label>
+                              </div>
+
+                              <div class="input-group">
+                                    <input type="checkbox" id="science">
+                                    <label for="science">Science</label>
+                              </div>
+
+                              <div class="input-group">
+                                    <input type="checkbox" id="technology">
+                                    <label for="technology">Technology</label>
+                              </div>
+                              
+                              <div class="input-group">
+                                    <input type="checkbox" id="fiction">
+                                    <label for="fiction">Fiction</label>
+                              </div>                              
+                        </div>
+                  </div>
+      
+                  <div class="rating">
+                        <p class="sidebar-subtitle">Rating</p>
+                        <div>
+                              <div class="input-group">
+                                    <input type="radio" name="rating" id="rating4">
+                                    <label for="rating4">4 star & above</label>
+                              </div>
+                              
+                              <div class="input-group">
+                                    <input type="radio" name="rating" id="rating3">
+                                    <label for="rating3">3 star & above</label>
+                              </div>
+      
+                              <div class="input-group">
+                                    <input type="radio" name="rating" id="rating2">
+                                    <label for="rating2">2 star & above</label>
+                              </div>
+
+                              <div class="input-group">
+                                    <input type="radio" name="rating" id="rating1">
+                                    <label for="rating1">1 star & above</label>
+                              </div>                              
+                        </div>
+                  </div>
+      
+                  <div class="sortby">
+                        <p class="sidebar-subtitle">Sort by</p>
+                              <div class="input-group">
+                                    <input type="radio" name="sortby" id="sorybylth">
+                                    <label for="sorybylth">Price - Low to High</label>
+                              </div>
+                              
+                              <div class="input-group"> 
+                                    <input type="radio" name="sortby" id="sorybyhtl">
+                                    <label for="sorybyhtl">Price - High to Low</label>
+                              </div>                             
+                        </div>
+                  </div>
+            </div>
+      
+            <div class="card-container p-2">
+                  <div class="card card-badge badge-icon">
+                        <i class="fas fa-heart badge badge-top-right text-m"></i>
+                        <div class="card-img">
+                              <img src="https://picsum.photos/id/100/250/300" alt="Image">
+                        </div>
+                        <div class="card-body">
+                              <div class="card-content p-1">
+                                    <div class="fw-semibold text-s">Javascript for beginner</div>
+                                    <div class="fw-bold text-m">$5000.00</div>
+                              </div>
+                              <div class="card-actions p-1 text-s">
+                                    <button class="btn btn-secondary">Add to Cart</button>
+                              </div>
+                        </div>
+                  </div>
+      
+                  <div class="card card-badge badge-icon">
+                        <i class="fas fa-heart badge badge-top-right text-m"></i>
+                        <div class="card-img">
+                              <img src="https://picsum.photos/id/100/250/300" alt="Image">
+                        </div>
+                        <div class="card-body">
+                              <div class="card-content p-1">
+                                    <div class="fw-semibold text-s">Javascript for beginner</div>
+                                    <div class="fw-bold text-m">$5000.00</div>
+                              </div>
+                              <div class="card-actions p-1 text-s">
+                                    <button class="btn btn-secondary">Add to Cart</button>
+                              </div>
+                        </div>
+                  </div>
+      
+                  <div class="card card-badge badge-icon">
+                        <i class="fas fa-heart badge badge-top-right text-m"></i>
+                        <div class="card-img">
+                              <img src="https://picsum.photos/id/100/250/300" alt="Image">
+                        </div>
+                        <div class="card-body">
+                              <div class="card-content p-1">
+                                    <div class="fw-semibold text-s">Javascript for beginner</div>
+                                    <div class="fw-bold text-m">$5000.00</div>
+                              </div>
+                              <div class="card-actions p-1 text-s">
+                                    <button class="btn btn-secondary">Add to Cart</button>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="card card-badge badge-icon">
+                        <i class="fas fa-heart badge badge-top-right text-m"></i>
+                        <div class="card-img">
+                              <img src="https://picsum.photos/id/100/250/300" alt="Image">
+                        </div>
+                        <div class="card-body">
+                              <div class="card-content p-1">
+                                    <div class="fw-semibold text-s">Javascript for beginner</div>
+                                    <div class="fw-bold text-m">$5000.00</div>
+                              </div>
+                              <div class="card-actions p-1 text-s">
+                                    <button class="btn btn-secondary">Add to Cart</button>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="card card-badge badge-icon">
+                        <i class="fas fa-heart badge badge-top-right text-m"></i>
+                        <div class="card-img">
+                              <img src="https://picsum.photos/id/100/250/300" alt="Image">
+                        </div>
+                        <div class="card-body">
+                              <div class="card-content p-1">
+                                    <div class="fw-semibold text-s">Javascript for beginner</div>
+                                    <div class="fw-bold text-m">$5000.00</div>
+                              </div>
+                              <div class="card-actions p-1 text-s">
+                                    <button class="btn btn-secondary">Add to Cart</button>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="card card-badge badge-icon">
+                        <i class="fas fa-heart badge badge-top-right text-m"></i>
+                        <div class="card-img">
+                              <img src="https://picsum.photos/id/100/250/300" alt="Image">
+                        </div>
+                        <div class="card-body">
+                              <div class="card-content p-1">
+                                    <div class="fw-semibold text-s">Javascript for beginner</div>
+                                    <div class="fw-bold text-m">$5000.00</div>
+                              </div>
+                              <div class="card-actions p-1 text-s">
+                                    <button class="btn btn-secondary">Add to Cart</button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      
+      <script src="./js/header.js"></script>
+
+</body>
+</html>
