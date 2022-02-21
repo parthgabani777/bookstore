@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>E commerce</title>
+      <script src="https://kit.fontawesome.com/4b28f70eeb.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./css/auth.css">
+</head>
+<body>
+      
+      <header>
+            <nav class="navbar bg-dark">
+                  <div class="nav-title">
+                        <h1 class="text-xl"><a class="btn">BookStore</a></h1>
+                  </div>
+
+                  <div class="nav-search">
+                        <input type="text" class="search-box text-s" placeholder="Search...">
+                        <button class="btn search-btn"><i class="fa fa-search"></i></button>
+                  </div>
+
+                  <div class="humburger text-l">
+                        <i class="fas fa-bars btn"></i>
+                  </div>
+
+                  <ul class="nav-item-group text-s">
+                        <li class="nav-item"><a class="nav-link btn">Home</a></li>
+                        <li class="nav-item"><a class="nav-link btn">Explore</a></li>
+                        <li class="nav-item"><a class="nav-link active btn">Login</a></li>
+                        <div class="nav-icons">
+                              <a class="nav-item badge-icon text-m">
+                                    <i class="fas fa-heart nav-link btn"></i>
+                                    <p class="badge badge-top-right badge-text text-xs">15</p>
+                              </a>
+                              <a class="nav-item badge-icon text-m">
+                                    <i class="fas fa-shopping-cart nav-link btn"></i>
+                                    <p class="badge badge-top-right badge-text text-xs">15</p>
+                              </a>
+                        </div>
+                  </ul>
+            </nav>
+      </header>
+
+      <section class="auth text-s">
+            <div class="auth-form box-shadow p-4">
+                  <h3 class="text-l text-center py-1">Login</h3>
+
+                  <div class="input-group py-1">
+                        <label for="email">Email address</label>
+                        <input type="text" class="input text-s" id="email" placeholder="mail@gmail.com">
+                  </div>
+                  
+                  <div class="input-group py-1">
+                        <label for="password">Password</label>
+                        <input type="password" class="input text-s" id="password" placeholder="************">
+                  </div>
+                  
+                  <div class="input-checkbox py-1">
+                        <div>
+                              <input type="checkbox" id="remember_me">
+                              <label for="remember_me">Remember Me</label>
+                        </div>
+                        <a href="" class="link-blue">Forget Password?</a>
+                  </div>
+      
+                  <div class="py-1 text-center">
+                        <button class="btn btn-secondary auth-btn br-1">Login</button>
+                  </div>
+
+                  <div class="py-1 text-center">
+                        <a href="./signup.html" class="link-blue">Create an Account</a>
+                  </div>
+                  
+            </div>
+      </section>
+
+      <script src="./js/header.js"></script>
+
+</body>
+</html>
